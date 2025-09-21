@@ -1,0 +1,340 @@
+[
+    {
+        "question": "What is the process of finding a derivative called?",
+        "choices": {
+            "A": "Integration",
+            "B": "Differentiation",
+            "C": "Optimization",
+            "D": "Interpolation"
+        },
+        "correct_answer": "B",
+        "explanation": "The process of finding a derivative is called differentiation. It involves calculating how fast a function grows or decreases at a given point.",
+        "difficulty": "easy",
+        "quality_score": 4
+    },
+    {
+        "question": "In the context of random variables, what is the equivalent of a probability mass function for continuous random variables?",
+        "choices": [
+            "Probability density function",
+            "Expected value function",
+            "Cumulative distribution function",
+            "Variance function"
+        ],
+        "correct_answer": "Probability density function",
+        "explanation": "For continuous random variables, the probability distribution is described by a probability density function (pdf), which is a function whose codomain is nonnegative and the area under the curve is equal to 1. This is the equivalent of a probability mass function for discrete random variables.",
+        "difficulty": "medium",
+        "quality_score": 5
+    },
+    {
+        "question": "What is the main difference between a probability mass function and a probability density function?",
+        "choices": {
+            "A": "A probability mass function is used for continuous random variables, while a probability density function is used for discrete random variables.",
+            "B": "A probability mass function describes the likelihood of discrete outcomes, while a probability density function describes the likelihood of continuous outcomes.",
+            "C": "A probability mass function is always continuous, while a probability density function can be discrete.",
+            "D": "A probability mass function is based on continuous intervals, while a probability density function is based on discrete intervals."
+        },
+        "correct_answer": "B",
+        "explanation": "The main difference between a probability mass function and a probability density function is that a probability mass function describes the likelihood of discrete outcomes, while a probability density function describes the likelihood of continuous outcomes.",
+        "difficulty": "hard",
+        "quality_score": 5
+    },
+    {
+        "question": "What is the process of finding a derivative called?",
+        "choices": [
+            "Integration",
+            "Normalization",
+            "Differentiation",
+            "Optimization"
+        ],
+        "correct_answer": "Differentiation",
+        "explanation": "The process of finding a derivative is called differentiation, as mentioned in the text.",
+        "difficulty": "easy",
+        "quality_score": 4
+    },
+    {
+        "question": "How can Bayes' Rule be applied in the context of parameter estimation?",
+        "choices": {
+            "A": "By updating the values of parameters in a model's vector using the probability distribution of the random variable X.",
+            "B": "By calculating the expectation of a random variable X given a sample SX drawn from an unknown probability distribution.",
+            "C": "By estimating the probability of a specific value x given that another random variable Y has a specific value of y.",
+            "D": "By optimizing the natural logarithm of the expression in equation 4 using numerical optimization routines."
+        },
+        "correct_answer": "A",
+        "explanation": "Bayes' Rule can be applied in the context of parameter estimation by updating the values of parameters in a model's vector using the probability distribution of the random variable X. This process involves using the Bayes' Rule formula to update the values iteratively based on observed data.",
+        "difficulty": "medium",
+        "quality_score": 4
+    },
+    {
+        "question": "When using Bayes' Rule for parameter estimation, what is the purpose of updating the values of parameters in the vector from the data?",
+        "choices": {
+            "A": "To ensure the model fits the training data perfectly.",
+            "B": "To minimize the likelihood of overfitting the model.",
+            "C": "To adjust the parameters based on new information and improve the model's accuracy.",
+            "D": "To introduce randomness into the model for better generalization."
+        },
+        "correct_answer": "C",
+        "explanation": "Updating the values of parameters in the vector from the data using Bayes' Rule allows for adjusting the parameters based on new information and improving the model's accuracy by incorporating the observed data.",
+        "difficulty": "hard",
+        "quality_score": 4
+    },
+    {
+        "question": "Which type of learning algorithm uses the entire dataset as the model?",
+        "choices": {
+            "A": "Model-Based Learning",
+            "B": "Instance-Based Learning",
+            "C": "Linear Regression",
+            "D": "Logistic Regression"
+        },
+        "correct_answer": "B",
+        "explanation": "Instance-Based Learning algorithms, like k-Nearest Neighbors (kNN), use the whole dataset as the model. In contrast, Model-Based Learning algorithms create a model based on parameters learned from the training data.",
+        "difficulty": "medium",
+        "quality_score": 4
+    },
+    {
+        "question": "When comparing binary classification and multiclass classification, what is a key difference in the number of classes involved?",
+        "choices": {
+            "A": "Binary classification involves two classes, while multiclass classification involves more than two classes.",
+            "B": "Binary classification involves more than two classes, while multiclass classification involves two classes.",
+            "C": "Binary classification involves three classes, while multiclass classification involves only two classes.",
+            "D": "Binary classification involves only one class, while multiclass classification involves multiple classes."
+        },
+        "correct_answer": "A",
+        "explanation": "The key difference between binary classification and multiclass classification is that binary classification involves two classes, while multiclass classification involves more than two classes.",
+        "difficulty": "hard",
+        "quality_score": 4
+    },
+    {
+        "question": "What is the main problem that regression aims to solve?",
+        "choices": [
+            "Predicting a binary label",
+            "Predicting a real-valued label",
+            "Classifying examples into multiple classes",
+            "Finding the optimal hyperplane for separation"
+        ],
+        "correct_answer": "Predicting a real-valued label",
+        "explanation": "Regression is a problem of predicting a real-valued label (often called a target) given an unlabeled example. Estimating house price valuation based on house features is a famous example of regression.",
+        "difficulty": "easy",
+        "quality_score": 4
+    },
+    {
+        "question": "How does deep learning differ from shallow learning in terms of parameter learning?",
+        "choices": {
+            "A": "Deep learning algorithms learn parameters directly from the features of training examples, while shallow learning algorithms learn parameters from the outputs of preceding layers.",
+            "B": "Deep learning algorithms learn parameters from the features of training examples, while shallow learning algorithms learn parameters directly from the outputs of preceding layers.",
+            "C": "Deep learning algorithms do not involve learning parameters, while shallow learning algorithms learn parameters directly from the features of training examples.",
+            "D": "Deep learning algorithms learn parameters from the outputs of preceding layers, while shallow learning algorithms do not involve learning parameters."
+        },
+        "correct_answer": "A",
+        "explanation": "Deep learning algorithms, specifically those that build neural networks with more than one layer between input and output, learn most model parameters not directly from the features of the training examples, but from the outputs of the preceding layers. This is in contrast to shallow learning algorithms where parameters are learned directly from the features of training examples.",
+        "difficulty": "medium",
+        "quality_score": 4
+    },
+    {
+        "question": "What is a key difference between linear regression and logistic regression?",
+        "choices": {
+            "A": "Linear regression is used for classification, while logistic regression is used for regression.",
+            "B": "Linear regression uses a linear combination of features to predict real-valued targets, while logistic regression uses a sigmoid function to predict probabilities.",
+            "C": "Linear regression has a closed form solution for optimization, while logistic regression uses gradient descent.",
+            "D": "Linear regression is a shallow learning algorithm, while logistic regression is a deep learning algorithm."
+        },
+        "correct_answer": "B",
+        "explanation": "The key difference between linear regression and logistic regression is that linear regression uses a linear combination of features to predict real-valued targets, while logistic regression uses a sigmoid function to predict probabilities for binary classification tasks.",
+        "difficulty": "hard",
+        "quality_score": 5
+    },
+    {
+        "question": "What is the optimization criterion used in logistic regression?",
+        "choices": [
+            "Average squared error loss",
+            "Maximum likelihood",
+            "Entropy",
+            "Mean absolute error"
+        ],
+        "correct_answer": "Maximum likelihood",
+        "explanation": "In logistic regression, the optimization criterion used is maximum likelihood. Instead of minimizing the average loss, like in linear regression, logistic regression maximizes the likelihood of the training data according to the model.",
+        "difficulty": "easy",
+        "quality_score": 4
+    },
+    {
+        "question": "Which learning algorithm is mentioned as notorious for exceptions to being shallow and often leading to overfitting?",
+        "choices": {
+            "A": "k-Nearest Neighbors (kNN)",
+            "B": "Linear Regression",
+            "C": "Support Vector Machines (SVM)",
+            "D": "Logistic Regression"
+        },
+        "correct_answer": "C",
+        "explanation": "Support Vector Machines (SVM) are mentioned as notorious exceptions to shallow learning algorithms due to their model-based nature. They use parameters learned from training data and can lead to overfitting.",
+        "difficulty": "medium",
+        "quality_score": 4
+    },
+    {
+        "question": "Which of the following statements accurately describes the difference between linear regression and logistic regression?",
+        "choices": {
+            "A": "Linear regression is used for classification tasks, while logistic regression is used for regression tasks.",
+            "B": "Linear regression minimizes the average loss, while logistic regression maximizes the likelihood of the training data.",
+            "C": "Linear regression uses a sigmoid function, while logistic regression uses a linear combination of features.",
+            "D": "Linear regression has a closed form solution, while logistic regression requires numerical optimization like gradient descent."
+        },
+        "correct_answer": "B",
+        "explanation": "The text explains that in linear regression, the optimization criterion is to minimize the average loss, while in logistic regression, the criterion is to maximize the likelihood of the training data according to the model.",
+        "difficulty": "hard",
+        "quality_score": 5
+    },
+    {
+        "question": "What is the main focus of logistic regression?",
+        "choices": [
+            "Predicting a real-valued label",
+            "Solving a regression problem",
+            "Assigning labels to unlabeled examples",
+            "Estimating house price valuation"
+        ],
+        "correct_answer": "Assigning labels to unlabeled examples",
+        "explanation": "Logistic regression is a classification learning algorithm that focuses on assigning labels to unlabeled examples, not predicting real-valued labels or solving regression problems.",
+        "difficulty": "easy",
+        "quality_score": 4
+    },
+    {
+        "question": "What is the key difference between the optimization criterion in logistic regression and linear regression?",
+        "choices": {
+            "A": "Logistic regression aims to maximize the likelihood of the training data, while linear regression minimizes the squared error loss.",
+            "B": "Logistic regression uses a linear combination of features, while linear regression uses a non-parametric model.",
+            "C": "Logistic regression involves building a decision tree, while linear regression involves gradient descent optimization.",
+            "D": "Logistic regression focuses on minimizing the entropy of the dataset, while linear regression maximizes the log-likelihood criterion."
+        },
+        "correct_answer": "A",
+        "explanation": "In logistic regression, the optimization criterion is to maximize the likelihood of the training data according to the model, while in linear regression, the goal is to minimize the squared error loss.",
+        "difficulty": "medium",
+        "quality_score": 4
+    },
+    {
+        "question": "Which optimization criterion is used in the ID3 algorithm for decision tree learning?",
+        "choices": {
+            "A": "Maximizing the average squared error loss",
+            "B": "Minimizing the empirical risk",
+            "C": "Maximizing the likelihood of the training data",
+            "D": "Minimizing the entropy of the set of examples"
+        },
+        "correct_answer": "C",
+        "explanation": "The ID3 algorithm for decision tree learning optimizes the likelihood of the training data according to the model. This is different from linear regression, where the empirical risk is minimized. The entropy of the set of examples is used to evaluate the goodness of a split in the decision tree learning process, not as the optimization criterion.",
+        "difficulty": "hard",
+        "quality_score": 4
+    },
+    {
+        "question": "What criterion is used in ID3 to estimate the goodness of a split?",
+        "choices": [
+            "Mean squared error",
+            "Maximum likelihood",
+            "Entropy",
+            "Hinge loss"
+        ],
+        "correct_answer": "Entropy",
+        "explanation": "In ID3, the goodness of a split is estimated by using the criterion called entropy. Entropy is a measure of uncertainty about a random variable. It reaches its maximum when all values of the random variables are equiprobable and reaches its minimum when the random variable can have only one value.",
+        "difficulty": "easy",
+        "quality_score": 4
+    },
+    {
+        "question": "Which optimization criterion is used in logistic regression, and how is it different from linear regression?",
+        "choices": {
+            "A": "Maximizing the likelihood function, which defines how likely the observation is according to the model, is used in logistic regression, while linear regression minimizes the empirical risk using the mean squared error loss.",
+            "B": "Minimizing the likelihood function, which defines how likely the observation is according to the model, is used in logistic regression, while linear regression maximizes the empirical risk using the mean squared error loss.",
+            "C": "Maximizing the likelihood function, which defines how likely the observation is according to the model, is used in linear regression, while logistic regression minimizes the empirical risk using the mean squared error loss.",
+            "D": "Minimizing the likelihood function, which defines how likely the observation is according to the model, is used in linear regression, while logistic regression maximizes the empirical risk using the mean squared error loss."
+        },
+        "correct_answer": "A",
+        "explanation": "In logistic regression, the optimization criterion involves maximizing the likelihood function, which defines how likely the observation is according to the model. This is different from linear regression, where the goal is to minimize the empirical risk using the mean squared error loss.",
+        "difficulty": "medium",
+        "quality_score": 5
+    },
+    {
+        "question": "What is a key difference between logistic regression and decision tree learning algorithms?",
+        "choices": {
+            "A": "Logistic regression optimizes the likelihood of the training set according to the model, while decision tree learning optimizes the average log-likelihood.",
+            "B": "Logistic regression builds a parametric model by finding an optimal solution to the optimization criterion, while decision tree learning constructs a non-parametric model.",
+            "C": "Logistic regression uses the entropy-based split criterion, while decision tree learning uses the hinge loss function.",
+            "D": "Logistic regression works well with linearly separable data, while decision tree learning is more suitable for non-linearly separable data."
+        },
+        "correct_answer": "B",
+        "explanation": "The key difference between logistic regression and decision tree learning algorithms is that logistic regression builds a parametric model by finding an optimal solution to the optimization criterion, while decision tree learning constructs a non-parametric model. Logistic regression optimizes the likelihood of the training set according to the model, while decision tree learning optimizes the average log-likelihood.",
+        "difficulty": "hard",
+        "quality_score": 4
+    },
+    {
+        "question": "What is the optimization criterion used in logistic regression?",
+        "choices": [
+            "Mean squared error",
+            "Maximum likelihood",
+            "Entropy",
+            "Hinge loss"
+        ],
+        "correct_answer": "Maximum likelihood",
+        "explanation": "In logistic regression, the optimization criterion used is maximum likelihood. The likelihood function defines how likely the observation is according to the model. The optimization criterion is to maximize the likelihood of the training data according to the model.",
+        "difficulty": "easy",
+        "quality_score": 4
+    },
+    {
+        "question": "In the context of Support Vector Machines (SVM), what is the purpose of the hinge loss function?",
+        "choices": {
+            "A": "To maximize the margin between classes by completely ignoring misclassifications.",
+            "B": "To minimize the distance between the decision boundary and the closest examples of each class.",
+            "C": "To handle cases where data is not linearly separable by penalizing misclassifications.",
+            "D": "To transform the original space into a higher dimensional space during optimization."
+        },
+        "correct_answer": "C",
+        "explanation": "The hinge loss function in SVM is used to handle cases where the data is not linearly separable by penalizing misclassifications. It is zero if the constraints are satisfied, and the function's value is proportional to the distance from the decision boundary for data on the wrong side.",
+        "difficulty": "medium",
+        "quality_score": 4
+    },
+    {
+        "question": "What role does the hyperparameter C play in SVM optimization?",
+        "choices": {
+            "A": "Determines the number of features to consider in the model",
+            "B": "Controls the trade-off between increasing the size of the decision boundary and ensuring correct classification",
+            "C": "Specifies the learning rate for updating the model weights",
+            "D": "Determines the depth of the decision tree"
+        },
+        "correct_answer": "B",
+        "explanation": "The hyperparameter C in SVM optimization controls the trade-off between increasing the size of the decision boundary and ensuring that each data point lies on the correct side of the decision boundary. Higher values of C prioritize maximizing the margin size, while lower values prioritize minimizing misclassification errors.",
+        "difficulty": "hard",
+        "quality_score": 4
+    },
+    {
+        "question": "What technique is used in SVM to transform the original space into a higher-dimensional space?",
+        "choices": [
+            "Gradient Descent",
+            "Principal Component Analysis",
+            "Kernel Trick",
+            "K-Means Clustering"
+        ],
+        "correct_answer": "Kernel Trick",
+        "explanation": "The text mentions that in SVM, the technique used to transform the original space into a higher-dimensional space during the cost function optimization is called the kernel trick.",
+        "difficulty": "easy",
+        "quality_score": 4
+    },
+    {
+        "question": "How does the use of kernel functions in SVM relate to the optimization process described in the text?",
+        "choices": {
+            "A": "Kernel functions are used to transform the data into a higher-dimensional space to make it linearly separable without explicitly doing the transformation, which aids in solving the optimization problem efficiently.",
+            "B": "Kernel functions are used to add noise to the data, making it more challenging to separate positive and negative examples, thus requiring a more complex optimization process.",
+            "C": "Kernel functions are used to reduce the dimensionality of the data, simplifying the optimization process by decreasing the number of variables to consider.",
+            "D": "Kernel functions are used to introduce inherent non-linearity to the data, making it easier to find the optimal decision boundary during the optimization process."
+        },
+        "correct_answer": "A",
+        "explanation": "Kernel functions in SVM are utilized to transform the original space into a higher-dimensional space during the optimization process without explicitly doing the transformation. This transformation helps make the data linearly separable in a higher-dimensional space, aiding in solving the optimization problem efficiently.",
+        "difficulty": "medium",
+        "quality_score": 4
+    },
+    {
+        "question": "What is the purpose of introducing the hinge loss function in SVM?",
+        "choices": {
+            "A": "To minimize the distance between the hyperplane and the closest examples of each class.",
+            "B": "To maximize the distance between the hyperplane and the closest examples of each class.",
+            "C": "To penalize misclassification based on the distance from the decision boundary.",
+            "D": "To penalize misclassification based on the absolute difference between predicted and true values."
+        },
+        "correct_answer": "C",
+        "explanation": "The hinge loss function in SVM is introduced to penalize misclassification based on the distance from the decision boundary. It is zero if the constraints are satisfied, indicating that the example lies on the correct side of the decision boundary. The value of the function increases proportionally to the distance from the decision boundary for misclassified examples.",
+        "difficulty": "hard",
+        "quality_score": 4
+    }
+]
